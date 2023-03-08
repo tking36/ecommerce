@@ -1,0 +1,35 @@
+main {
+  min-height: 80vh;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  padding: 1rem
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+select.form-control{
+  -webkit-appearance: menulist!important;
+  -moz-appearance: menulist!important;
+  -ms-appearance: menulist!important;
+  -o-appearance: menulist!important;
+  appearance: menulist!important;
+}
+
+.btn-block {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
