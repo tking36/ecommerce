@@ -1,0 +1,90 @@
+main {
+  min-height: 80vh;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  padding: 1rem
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+select.form-control{
+  -webkit-appearance: menulist!important;
+  -moz-appearance: menulist!important;
+  -ms-appearance: menulist!important;
+  -o-appearance: menulist!important;
+  appearance: menulist!important;
+}
+
+.btn-block {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.submit {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.active-page {
+  background-color: red;
+  border-color: red;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  display:block;
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  margin-top: 60px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+
+@media (max-width: 990px) {
+  .search {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+}
+
+
